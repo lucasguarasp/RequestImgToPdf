@@ -1,8 +1,5 @@
 ﻿using System;
-using System.ComponentModel;
-using System.IO;
 using System.Net;
-using System.Threading;
 
 public class FileDownloader
 {
@@ -59,7 +56,7 @@ public class FileDownloader
         }
         catch (Exception e)
         {
-            throw;
+            throw e;
         }
     }
 }

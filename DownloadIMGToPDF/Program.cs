@@ -1,12 +1,5 @@
-﻿using iTextSharp.text;
-using iTextSharp.text.pdf;
-using KellermanSoftware.CompareNetObjects.TypeComparers;
-using System;
-using System.Collections.Generic;
+﻿using System;
 using System.IO;
-using System.Linq;
-using System.Net;
-using System.Text.RegularExpressions;
 
 namespace DownloadIMGToPDF
 {
@@ -16,6 +9,7 @@ namespace DownloadIMGToPDF
         {
             string fileUrlSource = "https://image.isu.pub/200401132353-78fd8993414ea0750ea44387bcc5366d/jpg/";
 
+            #region path
             string path = Directory.GetCurrentDirectory();
 
             string target = @"c:\temp";
@@ -27,6 +21,7 @@ namespace DownloadIMGToPDF
 
             //set CurrentDirectory
             var currentDirectory = Environment.CurrentDirectory = (target);
+            #endregion
 
             int filesDownloads = FileDownloader.GetPagesAndDownload(fileUrlSource);
 

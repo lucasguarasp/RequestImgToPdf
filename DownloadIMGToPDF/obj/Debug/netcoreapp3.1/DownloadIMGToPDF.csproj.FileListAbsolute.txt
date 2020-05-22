@@ -47,3 +47,14 @@ C:\Users\lpaix\source\repos\DownloadIMGToPDF\DownloadIMGToPDF\bin\Debug\netcorea
 C:\Users\lpaix\source\repos\DownloadIMGToPDF\DownloadIMGToPDF\bin\Debug\netcoreapp3.1\Spire.Pdf.dll
 C:\Users\lpaix\source\repos\DownloadIMGToPDF\DownloadIMGToPDF\bin\Debug\netcoreapp3.1\PdfConverter.dll
 C:\Users\lpaix\source\repos\DownloadIMGToPDF\DownloadIMGToPDF\bin\Debug\netcoreapp3.1\KellermanSoftware.Compare-NET-Objects.dll
+C:\Users\lpaix\source\repos\DownloadIMGToPDF\RequestImgToPdf\DownloadIMGToPDF\bin\Debug\netcoreapp3.1\DownloadIMGToPDF.exe
+C:\Users\lpaix\source\repos\DownloadIMGToPDF\RequestImgToPdf\DownloadIMGToPDF\bin\Debug\netcoreapp3.1\DownloadIMGToPDF.deps.json
+C:\Users\lpaix\source\repos\DownloadIMGToPDF\RequestImgToPdf\DownloadIMGToPDF\bin\Debug\netcoreapp3.1\DownloadIMGToPDF.runtimeconfig.json
+C:\Users\lpaix\source\repos\DownloadIMGToPDF\RequestImgToPdf\DownloadIMGToPDF\bin\Debug\netcoreapp3.1\DownloadIMGToPDF.runtimeconfig.dev.json
+C:\Users\lpaix\source\repos\DownloadIMGToPDF\RequestImgToPdf\DownloadIMGToPDF\bin\Debug\netcoreapp3.1\DownloadIMGToPDF.dll
+C:\Users\lpaix\source\repos\DownloadIMGToPDF\RequestImgToPdf\DownloadIMGToPDF\bin\Debug\netcoreapp3.1\DownloadIMGToPDF.pdb
+C:\Users\lpaix\source\repos\DownloadIMGToPDF\RequestImgToPdf\DownloadIMGToPDF\obj\Debug\netcoreapp3.1\DownloadIMGToPDF.csprojAssemblyReference.cache
+C:\Users\lpaix\source\repos\DownloadIMGToPDF\RequestImgToPdf\DownloadIMGToPDF\obj\Debug\netcoreapp3.1\DownloadIMGToPDF.AssemblyInfoInputs.cache
+C:\Users\lpaix\source\repos\DownloadIMGToPDF\RequestImgToPdf\DownloadIMGToPDF\obj\Debug\netcoreapp3.1\DownloadIMGToPDF.AssemblyInfo.cs
+C:\Users\lpaix\source\repos\DownloadIMGToPDF\RequestImgToPdf\DownloadIMGToPDF\obj\Debug\netcoreapp3.1\DownloadIMGToPDF.dll
+C:\Users\lpaix\source\repos\DownloadIMGToPDF\RequestImgToPdf\DownloadIMGToPDF\obj\Debug\netcoreapp3.1\DownloadIMGToPDF.pdb

@@ -3,17 +3,15 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Text;
 using System.Text.RegularExpressions;
 
 namespace DownloadIMGToPDF
 {
-     public class ImgToPdf
+    public class ImgToPdf
     {
         public static void CreatePdf(string path)
         {
             List<string> images = GetImg(path);
-            //var a = images.OrderBy(q => q).ToList();
 
             Document document = new Document(PageSize.A4, 0, 0, 0, 0);
             using (var stream = new FileStream("Download.pdf", FileMode.Create, FileAccess.Write, FileShare.None))
@@ -23,7 +21,6 @@ namespace DownloadIMGToPDF
 
                 foreach (var img in images)
                 {
-                    //using (var imageStream = new FileStream("pdf_136.jpg", FileMode.Open, FileAccess.Read, FileShare.ReadWrite))
                     using (var imageStream = new FileStream(img, FileMode.Open, FileAccess.Read, FileShare.ReadWrite))
                     {
                         var image = Image.GetInstance(imageStream);
@@ -56,7 +53,7 @@ namespace DownloadIMGToPDF
             }
             catch (Exception e)
             {
-                throw;
+                throw e;
             }
         }
         public static IEnumerable<string> SortListImg(IEnumerable<string> list)
